@@ -1,0 +1,8 @@
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2020.frmAbout.resources
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2020.frmAboutPDFTrans.resources
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2020.frmLicense.resources
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2020.frmMain.resources
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2020.frmPreferences.resources
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2020.frmProperties.resources
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2020.Resources.resources
+C:\Development\Compara2020\WindowsApplication1\obj\x64\Debug\Compara2019.vbproj.GenerateResource.cache

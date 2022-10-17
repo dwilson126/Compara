@@ -1,0 +1,6 @@
+
+Starting Revisa
+Catch error in ModuleStartUpGdPicture runtime exception: The version of GdPicture.NET.14.image.gdimgplug.dll is invalid. Please update the following dll to latest version: C:\Development\Compara2020\Deployment\GdPicture.NET.14.image.gdimgplug.dll
+Starting Revisa
+Catch error in ModuleStartUpThis license 13295499893309780152115218496665309172 is expired. Please contact the GdPicture sales team from:
+ https://www.gdpicture.com/contact/

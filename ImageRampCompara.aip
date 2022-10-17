@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="15.1" version="19.8.1" Modules="professional" RootPath="." Language="en" Id="{1D94F023-C338-4F51-93D3-6F7F1C0DB7A8}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="ActSyncAppComponent;CPLAppletComponent;AppXAppDetailsComponent;FixupComponent;AppXCapabilitiesComponent;AppXDependenciesComponent;AppXProductDetailsComponent;AppXVisualAssetsComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2022" ValueLocId="-"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 19.8.1 build ff1d5dfa" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPHELPLINK" Value="https://www.docufi.com"/>
+    <ROW Property="ARPPRODUCTICON" Value="IRampIcon.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="https://www.docufi.com"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="https://www.docufi.com"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="Manufacturer" Value="DocuFi LLC"/>
+    <ROW Property="ProductCode" Value="1033:{58CC4224-BDB0-4865-BE6E-0FC39C4941A5} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="ImageRampCompara"/>
+    <ROW Property="ProductVersion" Value="6.1.902.14186" Options="16"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{D1286B5A-5D8A-4237-AC0B-6D689DD34169}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="MsiBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="MsiBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="MsiBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="MsiBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="MsiBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="MsiBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="MsiBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="MsiBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Backup_Dir" Directory_Parent="IRampBatch_Dir" DefaultDir="Backups"/>
+    <ROW Directory="CommonAppDataFolder" Directory_Parent="TARGETDIR" DefaultDir="COMMON~3|CommonAppDataFolder" IsPseudoRoot="1"/>
+    <ROW Directory="Compare_Dir" Directory_Parent="APPDIR" DefaultDir="COMPAR~1|CompareSamples"/>
+    <ROW Directory="ComposerPDF_Dir" Directory_Parent="PersonalFolder" DefaultDir="COMPOS~1|ComposerPDF"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="IRampBatch_Dir" Directory_Parent="PersonalFolder" DefaultDir="IRAMPB~1|IRampBatch"/>
+    <ROW Directory="ImageRampQC_Dir" Directory_Parent="PersonalFolder" DefaultDir="IMAGER~1|ImageRampQC"/>
+    <ROW Directory="NewFolder_Dir" Directory_Parent="CommonAppDataFolder" DefaultDir="NEWFOL~1|New Folder"/>
+    <ROW Directory="PersonalFolder" Directory_Parent="TARGETDIR" DefaultDir="PERSON~1|PersonalFolder" IsPseudoRoot="1"/>
+    <ROW Directory="Results_Dir" Directory_Parent="IRampBatch_Dir" DefaultDir="Results"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Watch4Barcodes_Dir" Directory_Parent="IRampBatch_Dir" DefaultDir="WATCH4~1|Watch4Barcodes"/>
+    <ROW Directory="Watch4DRM_Dir" Directory_Parent="IRampBatch_Dir" DefaultDir="WATCH4~3|Watch4DRM"/>
+    <ROW Directory="Watch4OCR_Dir" Directory_Parent="IRampBatch_Dir" DefaultDir="WATCH4~2|Watch4OCR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{4FA1A19D-89E7-41B2-8FE6-640F23D64D29}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Accessibility.dll" ComponentId="{7CB6EEF1-81DB-4219-A2CF-A606B33CD0A1}" Directory_="APPDIR" Attributes="0" KeyPath="Accessibility.dll"/>
+    <ROW Component="Backup" ComponentId="{EE789A9D-9B25-4C18-B53E-97E07838E70E}" Directory_="Backup_Dir" Attributes="0"/>
+    <ROW Component="Compara.VisualElementsManifest.xml" ComponentId="{6B715E44-DEF5-47E3-9DAC-EFE42E61EE64}" Directory_="APPDIR" Attributes="0" KeyPath="Compara.VisualElementsManifest.xml"/>
+    <ROW Component="Compara.exe" ComponentId="{E82F4925-453C-4FA9-AE78-F7312BE40B49}" Directory_="APPDIR" Attributes="0" KeyPath="Compara.exe"/>
+    <ROW Component="CompareAfter.pdf" ComponentId="{6890EA01-FC95-4274-BFD2-EAFF2CCDD8C2}" Directory_="Compare_Dir" Attributes="0" KeyPath="CompareAfter.pdf" Type="0"/>
+    <ROW Component="ComposerPDF" ComponentId="{7C7163B5-2F6A-4C04-9AE4-D7155E495799}" Directory_="ComposerPDF_Dir" Attributes="0"/>
+    <ROW Component="DevComponents.DotNetBar.Charts.dll" ComponentId="{3B3A040F-0704-4828-BE55-F830F1C79A24}" Directory_="APPDIR" Attributes="0" KeyPath="DevComponents.DotNetBar.Charts.dll"/>
+    <ROW Component="DevComponents.DotNetBar.Keyboard.dll" ComponentId="{BB352AB9-3E9C-456A-A11C-D14EC0F0E9D5}" Directory_="APPDIR" Attributes="0" KeyPath="DevComponents.DotNetBar.Keyboard.dll"/>
+    <ROW Component="DevComponents.DotNetBar2.dll" ComponentId="{5A0288B3-DC54-41F5-976A-F6DCB9D26BC2}" Directory_="APPDIR" Attributes="0" KeyPath="DevComponents.DotNetBar2.dll"/>
+    <ROW Component="DevComponents.TreeGX.dll" ComponentId="{B4AE3655-8636-4D23-935D-9282466FD8E6}" Directory_="APPDIR" Attributes="0" KeyPath="DevComponents.TreeGX.dll"/>
+    <ROW Component="GdPicture.NET.14.Imaging.ML.64.dll" ComponentId="{97C7AE92-3C7E-40FA-BB32-8989800FD8E9}" Directory_="APPDIR" Attributes="256" KeyPath="GdPicture.NET.14.Imaging.ML.64.dll"/>
+    <ROW Component="GdPicture.NET.14.Imaging.ML.dll" ComponentId="{B5D7BBEF-0C7D-4752-9278-BE7D022F9A43}" Directory_="APPDIR" Attributes="0" KeyPath="GdPicture.NET.14.Imaging.ML.dll"/>
+    <ROW Component="GdPicture.NET.14.dll" ComponentId="{047DD07E-682E-4F32-9BF2-89C10B77089C}" Directory_="APPDIR" Attributes="0" KeyPath="GdPicture.NET.14.dll"/>
+    <ROW Component="GdPicture.NET.14.filters.64.dll" ComponentId="{6E0B7367-5DF8-4127-9374-3CCEC2318728}" Directory_="APPDIR" Attributes="256" KeyPath="GdPicture.NET.14.filters.64.dll"/>
+    <ROW Component="GdPicture.NET.14.filters.dll" ComponentId="{937230D7-8621-4813-B397-9D2F8E99C7B7}" Directory_="APPDIR" Attributes="0" KeyPath="GdPicture.NET.14.filters.dll"/>
+    <ROW Component="GdPicture.NET.14.image.gdimgplug.64.dll" ComponentId="{585843C9-A199-4B6B-8825-BB3E1FB8FD8B}" Directory_="APPDIR" Attributes="256" KeyPath="GdPicture.NET.14.image.gdimgplug.64.dll"/>
+    <ROW Component="GdPicture.NET.14.image.gdimgplug.dll" ComponentId="{3E85704C-FE69-4481-986F-2238B2ACDE7A}" Directory_="APPDIR" Attributes="0" KeyPath="GdPicture.NET.14.image.gdimgplug.dll"/>
+    <ROW Component="IRampBatch.exe.config" ComponentId="{C577BE7A-E75E-4B1A-B3FF-D4AA04DF4685}" Directory_="APPDIR" Attributes="0" KeyPath="EULA.rtf" Type="0"/>
+    <ROW Component="ImageRampQC" ComponentId="{F77FAA6C-0B3E-4C4F-AD9D-571628C5111E}" Directory_="ImageRampQC_Dir" Attributes="0"/>
+    <ROW Component="Microsoft.VisualBasic.Compatibility.dll" ComponentId="{D8B7C039-B9B2-4441-9D70-7C8141D02897}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualBasic.Compatibility.dll"/>
+    <ROW Component="NewFolder" ComponentId="{7091F02B-2B60-4EC7-99DD-71F65C6A8F09}" Directory_="NewFolder_Dir" Attributes="0"/>
+    <ROW Component="Newtonsoft.Json.dll" ComponentId="{F601CBD7-39D5-4099-B150-1E7053DD9FC3}" Directory_="APPDIR" Attributes="0" KeyPath="Newtonsoft.Json.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{80609E46-415C-4C94-8434-08739E5D2053}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="QlmLicenseLib.dll" ComponentId="{E5551E82-FC09-4430-B5F5-42B710F02C29}" Directory_="APPDIR" Attributes="0" KeyPath="QlmLicenseLib.dll"/>
+    <ROW Component="ReVisa.VisualElementsManifest.xml" ComponentId="{F738573F-95AB-4841-8897-00FC31A88C93}" Directory_="APPDIR" Attributes="0" KeyPath="ReVisa.VisualElementsManifest.xml"/>
+    <ROW Component="ReVisa.exe" ComponentId="{A66B7DDF-0918-4D93-BA3B-C9FD05E48F0D}" Directory_="APPDIR" Attributes="0" KeyPath="ReVisa.exe"/>
+    <ROW Component="RestSharp.dll" ComponentId="{BAC1ACD4-251C-4AFF-BC62-363737554BF3}" Directory_="APPDIR" Attributes="0" KeyPath="RestSharp.dll"/>
+    <ROW Component="Results" ComponentId="{8A8431AD-99A1-4F47-BB16-9A2E233739A3}" Directory_="Results_Dir" Attributes="0"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{6E756B61-8F8C-4CB3-B08B-0C3AB3F2D7E3}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="System.Core.dll" ComponentId="{94A058A5-148A-4735-B70D-3758FFC2C8C4}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{5667534B-96C0-4007-96CB-E8CD13F02778}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Deployment.dll" ComponentId="{CC09454E-BB1B-4FC2-9B2D-D43ED55385A7}" Directory_="APPDIR" Attributes="0" KeyPath="System.Deployment.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{9FF9837C-1754-40FE-B0B4-37C9B05468E8}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.Management.dll" ComponentId="{C9561335-84D2-46FC-B408-CB42907C4E95}" Directory_="APPDIR" Attributes="0" KeyPath="System.Management.dll"/>
+    <ROW Component="System.Net.Http.dll" ComponentId="{10488453-2967-479A-8ECD-E02A163E2250}" Directory_="APPDIR" Attributes="0" KeyPath="System.Net.Http.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{1BCE9150-91CB-42AD-91DC-D6EBB18CFD0F}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{99422126-7982-4FE8-B35F-E3BB217FB712}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{B53304FC-79BA-4245-9CD1-79939EF50BD1}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
+    <ROW Component="Watch4Barcodes" ComponentId="{B94A882D-53C9-4998-988C-B75A4C49880C}" Directory_="Watch4Barcodes_Dir" Attributes="0"/>
+    <ROW Component="Watch4DRM" ComponentId="{7AAFA24B-DF8E-4B63-9675-0096C8523CD9}" Directory_="Watch4DRM_Dir" Attributes="0"/>
+    <ROW Component="Watch4OCR" ComponentId="{E1F756D1-BA2E-4E6A-A27B-2816D5333A3D}" Directory_="Watch4OCR_Dir" Attributes="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="TileAssets_MsiBuild" Title="TileAssets_MsiBuild" Description="Description" Display="0" Level="1" Directory_="APPDIR" Attributes="0" Options="271" Builds="MsiBuild"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Accessibility.dll" Component_="Accessibility.dll" FileName="ACCESS~1.DLL|Accessibility.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Accessibility.dll" SelfReg="false"/>
+    <ROW File="DevComponents.TreeGX.dll" Component_="DevComponents.TreeGX.dll" FileName="DEVCOM~1.DLL|DevComponents.TreeGX.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.TreeGX.dll" SelfReg="false"/>
+    <ROW File="DevComponents.DotNetBar.Charts.dll" Component_="DevComponents.DotNetBar.Charts.dll" FileName="DEVCOM~2.DLL|DevComponents.DotNetBar.Charts.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Charts.dll" SelfReg="false"/>
+    <ROW File="System.dll" Component_="System.dll" FileName="System.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" SelfReg="false"/>
+    <ROW File="DevComponents.DotNetBar.Keyboard.dll" Component_="DevComponents.DotNetBar.Keyboard.dll" FileName="DEVCOM~3.DLL|DevComponents.DotNetBar.Keyboard.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Keyboard.dll" SelfReg="false"/>
+    <ROW File="DevComponents.DotNetBar2.dll" Component_="DevComponents.DotNetBar2.dll" FileName="DEVCOM~4.DLL|DevComponents.DotNetBar2.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll" SelfReg="false"/>
+    <ROW File="Microsoft.VisualBasic.Compatibility.dll" Component_="Microsoft.VisualBasic.Compatibility.dll" FileName="MICROS~1.DLL|Microsoft.VisualBasic.Compatibility.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.Compatibility.dll" SelfReg="false"/>
+    <ROW File="System.Net.Http.dll" Component_="System.Net.Http.dll" FileName="SYSTEM~1.DLL|System.Net.Http.dll" Attributes="0" SourcePath="..\Components\System.Net.Http.dll" SelfReg="false"/>
+    <ROW File="QlmLicenseLib.dll" Component_="QlmLicenseLib.dll" FileName="QLMLIC~1.DLL|QlmLicenseLib.dll" Attributes="0" SourcePath="..\ComposerDesktopMVP\Deployment\QlmLicenseLib.dll" SelfReg="false"/>
+    <ROW File="System.Deployment.dll" Component_="System.Deployment.dll" FileName="SYSTEM~2.DLL|System.Deployment.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" SelfReg="false"/>
+    <ROW File="System.Core.dll" Component_="System.Core.dll" FileName="SYSTEM~3.DLL|System.Core.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" SelfReg="false"/>
+    <ROW File="System.Data.dll" Component_="System.Data.dll" FileName="SYSTEM~4.DLL|System.Data.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" SelfReg="false"/>
+    <ROW File="System.Drawing.dll" Component_="System.Drawing.dll" FileName="SYSTEM~5.DLL|System.Drawing.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" SelfReg="false"/>
+    <ROW File="System.Management.dll" Component_="System.Management.dll" FileName="SYSTEM~6.DLL|System.Management.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Management.dll" SelfReg="false"/>
+    <ROW File="System.Windows.Forms.dll" Component_="System.Windows.Forms.dll" FileName="SYSTEM~7.DLL|System.Windows.Forms.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="System.Xml.dll" Component_="System.Xml.dll" FileName="SYSTEM~8.DLL|System.Xml.dll" Attributes="0" SourcePath="..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" SelfReg="false"/>
+    <ROW File="EULA.rtf" Component_="IRampBatch.exe.config" FileName="EULA.rtf" Attributes="0" SourcePath="Deployment\EULA.rtf" SelfReg="false"/>
+    <ROW File="CompareAfter.pdf" Component_="CompareAfter.pdf" FileName="COMPAR~1.PDF|CompareAfter.pdf" Attributes="0" SourcePath="Deployment\CompareSamples\CompareAfter.pdf" SelfReg="false"/>
+    <ROW File="compareBefore.pdf" Component_="CompareAfter.pdf" FileName="COMPAR~2.PDF|compareBefore.pdf" Attributes="0" SourcePath="Deployment\CompareSamples\compareBefore.pdf" SelfReg="false"/>
+    <ROW File="MultiPageAfter.pdf" Component_="CompareAfter.pdf" FileName="MULTIP~1.PDF|MultiPageAfter.pdf" Attributes="0" SourcePath="Deployment\CompareSamples\MultiPageAfter.pdf" SelfReg="false"/>
+    <ROW File="MultiPageBefore.pdf" Component_="CompareAfter.pdf" FileName="MULTIP~2.PDF|MultiPageBefore.pdf" Attributes="0" SourcePath="Deployment\CompareSamples\MultiPageBefore.pdf" SelfReg="false"/>
+    <ROW File="ComparaManual.pdf" Component_="IRampBatch.exe.config" FileName="COMPAR~1.PDF|ComparaManual.pdf" Attributes="0" SourcePath="Deployment\ComparaManual.pdf" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.DLL|Newtonsoft.Json.dll" Attributes="0" SourcePath="Deployment\Newtonsoft.Json.dll" SelfReg="false"/>
+    <ROW File="RestSharp.dll" Component_="RestSharp.dll" FileName="RESTSH~1.DLL|RestSharp.dll" Attributes="0" SourcePath="Deployment\RestSharp.dll" SelfReg="false"/>
+    <ROW File="IRampIcon.ico" Component_="IRampBatch.exe.config" FileName="IRAMPI~1.ICO|IRampIcon.ico" Attributes="0" SourcePath="Deployment\IRampIcon.ico" SelfReg="false"/>
+    <ROW File="ReVisa.exe" Component_="ReVisa.exe" FileName="ReVisa.exe" Attributes="0" SourcePath="Deployment\ReVisa.exe" SelfReg="false"/>
+    <ROW File="Compara.exe" Component_="Compara.exe" FileName="Compara.exe" Attributes="0" SourcePath="Deployment\Compara.exe" SelfReg="false"/>
+    <ROW File="ReVisa.VisualElementsManifest.xml" Component_="ReVisa.VisualElementsManifest.xml" FileName="REVISA~1.XML|ReVisa.VisualElementsManifest.xml" Attributes="0" SourcePath="&lt;AI_RES&gt;app.VisualElementsManifest.xml" SelfReg="false"/>
+    <ROW File="Compara.VisualElementsManifest.xml" Component_="Compara.VisualElementsManifest.xml" FileName="COMPAR~1.XML|Compara.VisualElementsManifest.xml" Attributes="0" SourcePath="&lt;AI_RES&gt;app.VisualElementsManifest.xml" SelfReg="false"/>
+    <ROW File="GdPicture.NET.14.filters.64.dll" Component_="GdPicture.NET.14.filters.64.dll" FileName="GDPICT~1.DLL|GdPicture.NET.14.filters.64.dll" Attributes="0" SourcePath="..\..\GdPicture.NET 14\Redist\GdPicture.NET.14.filters.64.dll" SelfReg="false"/>
+    <ROW File="GdPicture.NET.14.filters.dll" Component_="GdPicture.NET.14.filters.dll" FileName="GDPICT~2.DLL|GdPicture.NET.14.filters.dll" Attributes="0" SourcePath="..\..\GdPicture.NET 14\Redist\GdPicture.NET.14.filters.dll" SelfReg="false"/>
+    <ROW File="GdPicture.NET.14.image.gdimgplug.64.dll" Component_="GdPicture.NET.14.image.gdimgplug.64.dll" FileName="GDPICT~3.DLL|GdPicture.NET.14.image.gdimgplug.64.dll" Attributes="0" SourcePath="..\..\GdPicture.NET 14\Redist\GdPicture.NET.14.image.gdimgplug.64.dll" SelfReg="false"/>
+    <ROW File="GdPicture.NET.14.image.gdimgplug.dll" Component_="GdPicture.NET.14.image.gdimgplug.dll" FileName="GDPICT~4.DLL|GdPicture.NET.14.image.gdimgplug.dll" Attributes="0" SourcePath="..\..\GdPicture.NET 14\Redist\GdPicture.NET.14.image.gdimgplug.dll" SelfReg="false"/>
+    <ROW File="GdPicture.NET.14.Imaging.ML.64.dll" Component_="GdPicture.NET.14.Imaging.ML.64.dll" FileName="GDPICT~5.DLL|GdPicture.NET.14.Imaging.ML.64.dll" Attributes="0" SourcePath="..\..\GdPicture.NET 14\Redist\GdPicture.NET.14.Imaging.ML.64.dll" SelfReg="false"/>
+    <ROW File="GdPicture.NET.14.Imaging.ML.dll" Component_="GdPicture.NET.14.Imaging.ML.dll" FileName="GDPICT~6.DLL|GdPicture.NET.14.Imaging.ML.dll" Attributes="0" SourcePath="..\..\GdPicture.NET 14\Redist\GdPicture.NET.14.Imaging.ML.dll" SelfReg="false"/>
+    <ROW File="GdPicture.NET.14.dll" Component_="GdPicture.NET.14.dll" FileName="GDPICT~7.DLL|GdPicture.NET.14.dll" Attributes="0" SourcePath="..\..\GdPicture.NET 14\Redist\GdPicture.NET (.NET Framework 4.5)\GdPicture.NET.14.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="MsiBuild" BuildName="MsiBuild" BuildOrder="1" BuildType="0" PackageFolder="Deployment" PackageFileName="ImageRampComparaSetup" Languages="en" InstallationType="4" ExtUI="true" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DigCertStoreComponent">
+    <ROW DigitalCertificate="..\..\Certificate\DocuFi2019.pfx" TimeStampUrl="http://timestamp.digicert.com" SignerDescription="[|ProductName]" SignOptions="0" SignTool="0" UseSha256="1" Password="7C99B0A4C793F7030380A553E942F011DAFB6A7A"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DynamicPropertyComponent">
+    <ROW Property="ProductVersion" Type="2" SourcePath="Compara.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlAttributeComponent">
+    <ROW XmlAttribute="BackgroundColor" XmlElement="VisualElements" Name="BackgroundColor" Flags="0" Order="0" Value="System default"/>
+    <ROW XmlAttribute="BackgroundColor_3" XmlElement="VisualElements_3" Name="BackgroundColor" Flags="0" Order="0" Value="System default"/>
+    <ROW XmlAttribute="Executable" XmlElement="VisualElements" Name="Executable" Flags="0" Order="0" FileId="ReVisa.exe"/>
+    <ROW XmlAttribute="Executable_3" XmlElement="VisualElements_3" Name="Executable" Flags="0" Order="0" FileId="Compara.exe"/>
+    <ROW XmlAttribute="ForegroundText" XmlElement="VisualElements" Name="ForegroundText" Flags="0" Order="0" Value="light"/>
+    <ROW XmlAttribute="ForegroundText_3" XmlElement="VisualElements_3" Name="ForegroundText" Flags="0" Order="0" Value="light"/>
+    <ROW XmlAttribute="ShowNameOnSquare150x150Logo" XmlElement="VisualElements" Name="ShowNameOnSquare150x150Logo" Flags="0" Order="0" Value="on"/>
+    <ROW XmlAttribute="ShowNameOnSquare150x150Logo_3" XmlElement="VisualElements_3" Name="ShowNameOnSquare150x150Logo" Flags="0" Order="0" Value="on"/>
+    <ROW XmlAttribute="xmlnsxsi" XmlElement="Application" Name="xmlns:xsi" Flags="0" Order="0" Value="http://www.w3.org/2001/XMLSchema-instance"/>
+    <ROW XmlAttribute="xmlnsxsi_3" XmlElement="Application_3" Name="xmlns:xsi" Flags="0" Order="0" Value="http://www.w3.org/2001/XMLSchema-instance"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlElementComponent">
+    <ROW XmlElement="Application" Name="Application" Order="0" Flags="0" Type="53"/>
+    <ROW XmlElement="Application_3" Name="Application" Order="0" Flags="0" Type="53"/>
+    <ROW XmlElement="VisualElements" ParentElement="Application" Name="VisualElements" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="VisualElements_3" ParentElement="Application_3" Name="VisualElements" Order="0" Flags="0" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlFileComponent">
+    <ROW XmlFile="Compara.VisualElementsManifest.xml" FileName="Compara.VisualElementsManifest.xml" RootElement="Application_3" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+    <ROW XmlFile="ReVisa.VisualElementsManifest.xml" FileName="ReVisa.VisualElementsManifest.xml" RootElement="Application" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="ShortcutFlags.dll" SourcePath="&lt;AI_CUSTACTS&gt;ShortcutFlags.dll"/>
+    <ROW Name="ShowBackgroundImages.dll" SourcePath="&lt;AI_CUSTACTS&gt;ShowBackgroundImages.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiConditionComponent">
+    <ROW Feature_="TileAssets_MsiBuild" Level="4" Condition="VersionNT &lt; 603"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="20" Y="60" Width="330" Height="120" Attributes="7" Text="Deployment\EULA.rtf" Order="400" TextLocId="-" MsiKey="LicenseAgreementDlg#AgreementText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="Watch4Barcodes_Dir" Component_="Watch4Barcodes" ManualDelete="false"/>
+    <ROW Directory_="Watch4OCR_Dir" Component_="Watch4OCR" ManualDelete="false"/>
+    <ROW Directory_="Watch4DRM_Dir" Component_="Watch4DRM" ManualDelete="false"/>
+    <ROW Directory_="Results_Dir" Component_="Results" ManualDelete="false"/>
+    <ROW Directory_="Backup_Dir" Component_="Backup" ManualDelete="false"/>
+    <ROW Directory_="ComposerPDF_Dir" Component_="ComposerPDF" ManualDelete="false"/>
+    <ROW Directory_="ImageRampQC_Dir" Component_="ImageRampQC" ManualDelete="false"/>
+    <ROW Directory_="NewFolder_Dir" Component_="NewFolder" ManualDelete="false"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_ApplyShortcutFlags" Type="3073" Source="ShortcutFlags.dll" Target="UpdateShortcutFlags" WithoutSeq="true"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="[#Compara.exe]"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PinShortcuts" Type="1" Source="ShortcutFlags.dll" Target="PinShortcuts"/>
+    <ROW Action="AI_PinToStartScreen" Type="1025" Source="ShortcutFlags.dll" Target="PinToStartScreen" WithoutSeq="true"/>
+    <ROW Action="AI_PinToTaskbar" Type="1025" Source="ShortcutFlags.dll" Target="PinToTaskbar" WithoutSeq="true"/>
+    <ROW Action="AI_PrepareShortcutFlags" Type="1" Source="ShortcutFlags.dll" Target="PrepareActionData"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Type="1" Source="aicustact.dll" Target="GetLocalizedCredentials"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="AI_StopImageSlideshow" Type="1" Source="ShowBackgroundImages.dll" Target="StopImageSlideshow" WithoutSeq="true"/>
+    <ROW Action="AI_UnpinFromStartScreen" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromStartScreen" WithoutSeq="true"/>
+    <ROW Action="AI_UnpinFromTaskbar" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromTaskbar" WithoutSeq="true"/>
+    <ROW Action="AI_UnpinShortcuts" Type="1" Source="ShortcutFlags.dll" Target="UnpinShortcuts"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="MsiBuild:[ProgramFilesFolder][ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
+    <ROW Environment="Path1" Name="=-Path1" Value="[APPDIR]SampleFiles" Component_="DevComponents.DotNetBar.Charts.dll"/>
+    <ROW Environment="Path2" Name="=-Path2" Value="[APPDIR]Files\2DBarcodes\QRBarcodePics.pdf" Component_="DevComponents.DotNetBar.Charts.dll"/>
+    <ROW Environment="Recent1" Name="=-Recent1" Value="Import a Folder" Component_="DevComponents.DotNetBar.Charts.dll"/>
+    <ROW Environment="Recent2" Name="=-Recent2" Value="2D Barcode" Component_="DevComponents.DotNetBar.Charts.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="Accessibility.dll"/>
+    <ROW Feature_="MainFeature" Component_="Backup"/>
+    <ROW Feature_="MainFeature" Component_="CompareAfter.pdf"/>
+    <ROW Feature_="MainFeature" Component_="ComposerPDF"/>
+    <ROW Feature_="MainFeature" Component_="DevComponents.DotNetBar.Charts.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevComponents.DotNetBar.Keyboard.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevComponents.DotNetBar2.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevComponents.TreeGX.dll"/>
+    <ROW Feature_="MainFeature" Component_="IRampBatch.exe.config"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.VisualBasic.Compatibility.dll"/>
+    <ROW Feature_="MainFeature" Component_="Newtonsoft.Json.dll"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="QlmLicenseLib.dll"/>
+    <ROW Feature_="MainFeature" Component_="RestSharp.dll"/>
+    <ROW Feature_="MainFeature" Component_="Results"/>
+    <ROW Feature_="MainFeature" Component_="System.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Data.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Deployment.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Drawing.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Management.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Net.Http.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Xml.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.dll"/>
+    <ROW Feature_="MainFeature" Component_="GdPicture.NET.14.filters.64.dll"/>
+    <ROW Feature_="MainFeature" Component_="Watch4Barcodes"/>
+    <ROW Feature_="MainFeature" Component_="Watch4DRM"/>
+    <ROW Feature_="MainFeature" Component_="Watch4OCR"/>
+    <ROW Feature_="MainFeature" Component_="GdPicture.NET.14.filters.dll"/>
+    <ROW Feature_="MainFeature" Component_="GdPicture.NET.14.image.gdimgplug.64.dll"/>
+    <ROW Feature_="MainFeature" Component_="GdPicture.NET.14.image.gdimgplug.dll"/>
+    <ROW Feature_="MainFeature" Component_="GdPicture.NET.14.Imaging.ML.64.dll"/>
+    <ROW Feature_="MainFeature" Component_="GdPicture.NET.14.Imaging.ML.dll"/>
+    <ROW Feature_="MainFeature" Component_="GdPicture.NET.14.dll"/>
+    <ROW Feature_="MainFeature" Component_="ImageRampQC"/>
+    <ROW Feature_="MainFeature" Component_="ReVisa.exe"/>
+    <ROW Feature_="MainFeature" Component_="Compara.exe"/>
+    <ROW Feature_="TileAssets_MsiBuild" Component_="ReVisa.VisualElementsManifest.xml"/>
+    <ROW Feature_="TileAssets_MsiBuild" Component_="Compara.VisualElementsManifest.xml"/>
+    <ROW Feature_="MainFeature" Component_="NewFolder"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="Compara.exe" SourcePath="Deployment\Compara.exe" Index="0"/>
+    <ROW Name="IRampIcon.exe" SourcePath="Deployment\IRampIcon.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="55"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="53"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+    <ROW Action="AI_PrepareShortcutFlags" Condition="(VersionNT &gt; 501) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="4501"/>
+    <ROW Action="AI_PinShortcuts" Condition="(VersionNT &gt; 600) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="6499"/>
+    <ROW Action="AI_UnpinShortcuts" Condition="(VersionNT &gt; 600) AND (REMOVE = &quot;ALL&quot;)" Sequence="3199"/>
+    <ROW Action="AI_DETECT_MODERNWIN" Condition="(VersionNT &gt;= 603)" Sequence="54" MsiKey="AI_DETECT_MODERNWIN"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="54"/>
+    <ROW Action="AI_DpiContentScale" Sequence="53"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="MsiBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="MsiBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="MsiBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="MsiBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLockPermComponent">
+    <ROW LockObject="APPDIR" Table="CreateFolder" User="[GRP_EVERYONE]" Permission="2032127" Flags="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Compara" Directory_="SHORTCUTDIR" Name="Compara" Component_="Compara.exe" Target="[#Compara.exe]" Hotkey="0" Icon_="Compara.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="Compara2022" Directory_="DesktopFolder" Name="COMPAR~1|Compara2022" Component_="Compara.exe" Target="[#Compara.exe]" Hotkey="0" Icon_="Compara.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

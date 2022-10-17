@@ -1,0 +1,76 @@
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmMain.resources
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Compara2019.vbproj.GenerateResource.Cache
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmAbout.resources
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmLicense.resources
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmPreferences.resources
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmProperties.resources
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmAboutPDFTrans.resources
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.dll
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\GdPicture.NET.14.dll
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\QlmLicenseLib.dll
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\SoftekBarcodeNet.dll
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.xml
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\GdPicture.NET.14.xml
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+c:\users\dwilson\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Compara2019.vbprojResolveAssemblyReference.cache
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\GdPicture.NET.14.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\QlmLicenseLib.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\SoftekBarcodeNet.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\GdPicture.NET.14.xml
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\de\QlmLicenseLib.resources.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\es\QlmLicenseLib.resources.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\fr\QlmLicenseLib.resources.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\it\QlmLicenseLib.resources.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\ja\QlmLicenseLib.resources.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\pt\QlmLicenseLib.resources.dll
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\sv\QlmLicenseLib.resources.dll
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2019.vbproj.GenerateResource.Cache
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2019.vbproj.CopyComplete
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.frmAbout.resources
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.frmAboutPDFTrans.resources
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.frmLicense.resources
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.frmMain.resources
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.frmPreferences.resources
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.frmProperties.resources
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.Resources.resources
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\Compara2020.exe.config
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\Compara2020.exe
+C:\Development\Compara2019\WindowsApplication1\bin\Debug\Compara2020.pdb
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.exe
+C:\Development\Compara2019\WindowsApplication1\obj\Debug\Compara2020.pdb
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\Compara2020.exe.config
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\Compara2020.exe
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\Compara2020.pdb
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\GdPicture.NET.14.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\QlmLicenseLib.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\SoftekBarcodeNet.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\GdPicture.NET.14.xml
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\de\QlmLicenseLib.resources.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\es\QlmLicenseLib.resources.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\fr\QlmLicenseLib.resources.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\it\QlmLicenseLib.resources.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\ja\QlmLicenseLib.resources.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\pt\QlmLicenseLib.resources.dll
+C:\Development\Compara2020\WindowsApplication1\bin\Debug\sv\QlmLicenseLib.resources.dll
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.frmAbout.resources
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.frmAboutPDFTrans.resources
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.frmLicense.resources
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.frmMain.resources
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.frmPreferences.resources
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.frmProperties.resources
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.Resources.resources
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2019.vbproj.GenerateResource.cache
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.exe
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2020.pdb
+C:\Development\Compara2020\WindowsApplication1\obj\Debug\Compara2019.vbprojResolveAssemblyReference.cache
